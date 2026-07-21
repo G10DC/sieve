@@ -2,13 +2,13 @@
 
 > Idempotent, schema-validated data pipelines that fail loud and never duplicate on re-run.
 
-`sieve` is a Claude Code skill that enforces a disciplined shape on data pipelines —
+`sieve` is a Agent skill that enforces a disciplined shape on data pipelines —
 ingest → validate → transform → persist — with raw/staged/curated separation, provenance,
 and fail-as-value error handling. The rule above all: a pipeline you can't safely re-run is a bug.
 
 ## Install
 
-Copy into `~/.claude/skills/sieve/`. Claude Code auto-loads any folder that contains a `SKILL.md`.
+Copy into `~/.gemini/config/skills/sieve/`. Agent environment auto-loads any folder that contains a `SKILL.md`.
 
 ## Usage
 
